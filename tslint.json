@@ -1,0 +1,12 @@
+{
+	"extends": "tslint-config-standard",
+	"rules": {
+		"indent": [true, "spaces"],
+			"space-before-function-paren": [true, {
+			"anonymous": "always",
+			"named": "never",
+			"asyncArrow": "ignore"
+		}],
+		"semicolon": true
+	}
+}
