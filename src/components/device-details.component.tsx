@@ -21,7 +21,6 @@ export default class DeviceDetails extends React.Component<{}, MyState> {
       deviceInformation = Object.keys(this.state.deviceData).map(key =>
         <div>{key} - {this.state.deviceData[key]}</div>
       );
-
     }
 
     return (
