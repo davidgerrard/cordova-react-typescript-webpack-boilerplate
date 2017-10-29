@@ -11,8 +11,9 @@ I am using versions 8.x of NodeJS and 5.x of NPM in my development environment. 
 If you haven't a physical Android device, you can either run an emulator (lots of info on the web about doing this) or add your own device platform (cordova add [platform]).
 
 1. Clone this repo
-2. npm install
-3. npm run start:android
+2. Install Cordova globally (npm install -g cordova)
+3. npm install
+4. npm run start:android
 
 ## Building
 
