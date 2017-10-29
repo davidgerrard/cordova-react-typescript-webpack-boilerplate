@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   entry: './src/main.tsx',
 	output: {
-		path: path.resolve(__dirname, '../www/js'),
+		path: path.resolve(__dirname, './www/js'),
 		filename: '[name].js'
 	},
 	node: {
